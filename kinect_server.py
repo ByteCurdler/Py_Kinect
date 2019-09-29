@@ -9,12 +9,12 @@ while True:
         try:
             result = eval("module." + want[4:])
         except AttributeError:
-            print("\x01\x02ERR_NO_ATTR")
+            print("\x01\x02"+"ERR_NO_ATTR")
         if type(result) in [int, float]:
             print("\x01\x02" + str(result))
         elif type(result) == str:
             print("\x01\x02" + repr(result))
         else:
-            print("\x01\x02ERR_WRONG_TYPE")
+            print("\x01\x02"+"OBJECT")
     else:
-        print("\x01\x02ERR_UNKNOWN_INPUT")
+        print("\x01\x02"+"ERR_UNKNOWN_INPUT")
