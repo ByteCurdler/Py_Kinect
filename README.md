@@ -14,9 +14,9 @@ You can now use `module` as your module.
 >>> test = import2("test")
 >>> test.cat
 123
->>> test.dog
-321
 >>> test.pi
 3.14
+>>> test.name
+"test"
 >>> 
 ```
