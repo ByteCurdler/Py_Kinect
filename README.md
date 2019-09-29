@@ -18,5 +18,7 @@ You can now use `module` as your module.
 3.14
 >>> test.name
 "test"
+>>> test.Cat.dog
+"no"
 >>> 
 ```
