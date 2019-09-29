@@ -1,5 +1,5 @@
 # Py_Kinect
-A connection between Python 2 and Python 3.
+A bridge so you can connect Python 2 and Python 3.
 Supports types `int` and `float`.
 # Usage
 ### Initialization:
